@@ -538,7 +538,7 @@ Reinforce the disclaimer: the output is a drafting aid. Independent QC against
 your own process is still required before any regulated use.
 :::
 
-# Section C — Modify, extend, and build a skill {.unnumbered}
+# Section C — Practice with group-sequential-design and admiral {.unnumbered}
 
 ## Anatomy of a skill
 
