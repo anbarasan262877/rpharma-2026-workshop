@@ -540,68 +540,28 @@ your own process is still required before any regulated use.
 
 # Section C — Practice with group-sequential-design and admiral {.unnumbered}
 
-## Anatomy of a skill
+## Now it's your turn
 
-Everything the agent needs is plain text and scripts in one folder:
+Try one of today's skills on something from your own work:
 
-``` text
-skills/admiral/admiral-adsl/
-├── SKILL.md                     # frontmatter + step-by-step workflow
-├── references/
-│   ├── admiral-functions.md     # function selection, pitfalls
-│   └── adsl-conventions.md      # CDISC variable conventions
-└── LICENSE
-```
+- **group-sequential-design** — describe a trial you're actually designing
+- **admiral** (`admiral-adsl` / `admiral-adae` / `admiral-bds`) — point it at
+  a dataset you work with
 
-- **Frontmatter** (`name`, `description`) is how the agent decides when to
-  load the skill
-- **Workflow** is ordered steps with code patterns and `# REVIEW:` rules
-- **References** are read on demand, not upfront
-- A root `CLAUDE.md` routes the agent to the right skill
+Just describe the task in plain language and see what the agent produces.
+Commit anything you want to keep to **your fork**. We're here to help if you
+get stuck.
 
 ::: {.notes}
-Open `skills/admiral/SKILL.md` and `skills/group-sequential-design/SKILL.md`
-side by side and point out the shared shape: routing / scope check, then an
-ordered workflow, then references and bundled scripts.
-:::
-
-## Section C — hands-on
-
-::: {.callout-important}
-Exercise content pending — to be defined by Jeff & Eric
-:::
-
-Two activities, instructor-supported:
-
-1. **Modify or extend an existing skill** — [CONFIRM: which skill, what change
-   — e.g. add an `AGEGR1` cut-point convention, add a new ADAE grouping flag,
-   add a futility-only GSD variant]
-2. **Sketch a skill of your own** — [CONFIRM: starter template / scaffold
-   provided? target task examples for different disciplines?]
-
-Commit and push to **your fork** as you go — that's what keeps this after
-today.
-
-::: {.notes}
-DO NOT invent the specific modification or the starter task. Jeff and Eric to
-decide: the smallest meaningful edit to an existing skill, and a scaffold
-(frontmatter + empty workflow headings) attendees fill in for a task from
-their own work. Keep this achievable in ~15 minutes.
+Instructor-supported open practice time — no fixed script. Circulate and help
+people get unstuck rather than walking through a set scenario. Afterward, ask
+a couple of people to share what they tried and what stood out, then move to
+wrap-up.
 
 [CONFIRM WITH JEFF: if the "fork the repo" step (Environment orientation, #2)
-is cut, replace this line with however work actually persists — e.g. "download
-your skill folder" or "it stays in your Workbench home directory."]
-:::
-
-## Section C — debrief
-
-- What made the existing skill easy or hard to change?
-- What is the smallest skill that would still be useful to you at work?
-- Where would a skill help most in your current workflow?
-
-::: {.notes}
-Bridge to the wrap-up: the goal is that people leave with a concrete idea they
-could prototype in the week after the workshop.
+is cut, swap "commit anything you want to keep to your fork" for however work
+actually persists — e.g. "download what you want to keep" or "it stays in
+your Workbench home directory."]
 :::
 
 # Wrap-up
